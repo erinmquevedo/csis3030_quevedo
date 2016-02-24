@@ -1,0 +1,76 @@
+$header: 'oswald';
+$body: 'Titillium Web', sans-serif;
+
+p {
+    font-family: $body;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $header;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+#header h1 {
+    margin-top: 15%;
+    color: #fff;
+}
+
+#header h2 {
+    color: #fff;
+}
+
+
+i.fa {
+    font-size: 15vh;
+}
+
+.ghostButton {
+    ;
+    font-family: $body;
+    font-size: 3vh;
+    color: #f7f7f7;
+    letter-spacing: 0.05em;
+	padding-top: 10px;
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+    height: 3vh;
+    border: solid;
+    border-width: 2px;
+    border-color: #f7f7f7;
+    background:none;
+    	transition: .5s;
+		-moz-transition: .5s;
+		-webkit-transition: .5s;
+}
+
+a.ghostButton {
+    margin-top: 5%;
+}
+
+.ghostButton value {
+    color:#f7f7f7;
+}
+
+.ghostButton value:hover {
+    color:#5e5e5e;
+}
+
+.ghostButton:hover {
+    border: solid;
+    border-color: #fefefe;
+    background-color: #f7f7f7;
+    border-width: 2px;
+    border-radius: 5px;
+    color: #5e5e5e;
+    text-decoration: none;
+}
+
+
+
+footer {
+    color: #fff;
+}
